@@ -1,7 +1,7 @@
 class Solution {
     public int findNumbers(int[] nums) {
 
-        int countNumber = 0;
+        int countDigits = 0;
 
         for (int i = 0; i < nums.length; i++) {
 
@@ -18,6 +18,6 @@ class Solution {
             }
         }
 
-        return countNumber;
+        return countDigits;
     }
 }
