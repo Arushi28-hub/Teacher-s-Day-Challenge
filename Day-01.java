@@ -14,7 +14,7 @@ class Solution {
             }
 
             if (count % 2 == 0) {
-                countNumber++;
+                countDigits++;
             }
         }
 
